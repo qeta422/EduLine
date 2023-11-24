@@ -121,15 +121,77 @@ main .banner-text p {
 
 main .banner-img {
     width: 40%;
-
 }
 
 main .banner-img img{
-    width: 400px;
+    width: 420px;
     height: 330px;
     float: right;
     border-radius: 50px;
 }
+
+main .card-area {
+    width: 100%;
+}
+
+main .post-cards {
+    width: 90%;
+    position: absolute;
+    top: 440px;
+    right: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .post-card {
+    width: 350px;
+}
+
+main .post-card img {
+    width: 350px;
+    height: 270px;
+    border-radius: 40px;
+}
+
+.post-card .card-content {
+    padding: 10px;
+}
+
+.post-card .card-content h4 {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+}
+
+.post-card .card-content h4:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h1:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h1 {
+    color: #73788A;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+}
+
+.post-card .card-content p {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+}
+
+
+
 
 
 
