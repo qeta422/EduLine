@@ -1,0 +1,219 @@
+header {
+    width: 100%;
+    border: 1px solid white;
+    background-color: #3667C9;
+}
+
+header nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+
+header aside {
+    display: inline-block;
+}
+
+header .logo-aside {
+    width: 7%;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .logo-aside img {
+    width: 55px;
+    height: 25px;
+    margin: 5px;
+}
+
+header .menu-aside {
+    width: 35%;
+}
+
+header .menu-aside ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu-aside li a {
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .menu-aside li a:hover {
+    color: #C99836;
+    transition: 1s;
+}
+
+header .reg-auth {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .reg-auth button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+    border-radius: 50px;
+    height: 25px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .reg-auth button:hover {
+    background-color: white;
+    color: #C99836;
+    transition: 1s;
+}
+
+main .info-section {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .info-section .left-info {
+    width: 45%;
+}
+
+main .info-section .left  {
+    
+}
+
+main .info-section .right-info {
+    width: 50%;
+}
+
+main .info-section .right-info .text-content {
+    padding: 50px 0px;
+}
+
+.info-section .right-info .text-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #73788A;
+    font-weight: 300;
+    padding: 5px 0px;
+
+}
+
+.info-section .right-info .text-content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #73788A;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.info-section .right-info .text-content h1:hover {
+    color: #3667C9;
+}
+
+.info-section .right-info .text-content h4:hover {
+    color: #3667C9;
+}
+
+.info-section .right-info .text-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #73788A;
+    font-weight: 300;
+    text-indent: 50px;
+}
+
+.info-section .right-info ul {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    float: right;
+    padding: 50px 100px;
+}
+
+.info-section .right-info ul li a {
+    color: #C99836;
+    
+}
+
+main .info-section {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .info-section .left-info {
+    width: 45%;
+}
+
+main .info-section .left-info img {
+    width: 600px;
+    height: 470px;
+    border-radius: 50px;
+}
+
+main .info-section .right-info {
+    width: 50%;
+}
+
+main .info-section .right-info .text-content {
+    padding: 50px 0px;
+}
+
+.info-section .right- .text-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #73788A;
+    font-weight: 300;
+    padding: 5px 0px;
+
+}
+
+.info-section .right-info .text-content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #73788A;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.info-section .right-info .text-content h1:hover {
+    color: #3667C9;
+}
+
+.info-section .right-info .text-content h4:hover {
+    color: #3667C9;
+}
+
+.info-section .right-info .text-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #73788A;
+    font-weight: 300;
+    text-indent: 50px;
+}
+
+.info-section .right-info ul {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    float: right;
+    padding: 50px 100px;
+}
+
+.info-section .right-info ul li a {
+    color: #C99836;
+    
+}
