@@ -5,7 +5,7 @@ header {
 }
 
 header nav {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@ main .banner-area {
 }
 
 main .banner-area .banner {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -129,23 +129,22 @@ main .banner-img img{
 main .card-area {
     width: 100%;
 }
-
 main .post-cards {
-    width: 90%;
+    width: 80%;
     position: absolute;
     top: 440px;
-    right: 76px;
+    right: 150px;
     display: flex;
     justify-content: space-between;
 }
 
 main .post-card {
-    width: 350px;
+    width: 250px;
 }
 
 main .post-card img {
-    width: 350px;
-    height: 270px;
+    width: 250px;
+    height: 200px;
     border-radius: 40px;
 }
 
@@ -188,7 +187,7 @@ main .post-card img {
 
 main .card-btn {
     width: 200px;
-    margin: 500px auto 0px;
+    margin: 430px auto 0px;
 }
 
 main .card-btn button {
@@ -245,7 +244,7 @@ main .card-btn-second button:hover {
 }
 
 main .faq {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -298,7 +297,7 @@ footer {
 }
 
 footer .footer-content {
-    width: 90%;
+    width:80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -361,11 +360,11 @@ footer .footer-content .footer-right {
 }
 
 hr {
-    width: 90%;
+    width: 80%;
 }
 
 footer .copyright {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;

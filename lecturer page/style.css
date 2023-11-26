@@ -5,7 +5,7 @@ header {
 }
 
 header nav {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,7 @@ header .reg-auth button:hover {
 }
 
 main .lecturer-section {
-    width: 90%;
+    width:80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -102,7 +102,7 @@ main .lecturer-section .right {
 }
 
 main .lecturer-section .right .text-content {
-    padding: 50px 0px;
+    padding: 50px 0px 50px 50px ;
 }
 
 .lecturer-section .right .text-content h1 {
@@ -123,10 +123,14 @@ main .lecturer-section .right .text-content {
 
 .lecturer-section .right .text-content h1:hover {
     color: #3667C9;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .lecturer-section .right .text-content h4:hover {
     color: #3667C9;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .lecturer-section .right .text-content p {
@@ -148,22 +152,23 @@ main .lecturer-section .right .text-content {
 
 .lecturer-section .right ul li a {
     color: #C99836;
-    
 }
 
 main .info-section {
-    width: 90%;
+    width: 80%;
     margin: 40px auto;
     display: flex;
     justify-content: space-between;
 }
 
 main .info-section .left-info {
-    width: 45%;
+    width: 60%;
 }
 
 main .info-section .right-info {
-    width: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .info-section .left-info h1 {
@@ -171,7 +176,14 @@ main .info-section .right-info {
     font-size: 20px;
     color: #C99836;
     font-weight: 300;
-    padding: 5px 0px;
+    padding: 10px 0px;
+}
+
+.info-section .left-info hr {
+    color: #C99836;
+    width: 90%;
+    margin-bottom: 15px;
+    float: left;
 }
 
 .info-section .left-info .text-container h4 {
@@ -179,11 +191,13 @@ main .info-section .right-info {
     font-size: 16px;
     color: #73788A;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding: 30px 0px 5px 0px;
 }
 
 .info-section .left-info .text-container h4:hover {
     color: #3667C9;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .info-section .left-info .text-container p {
@@ -191,16 +205,78 @@ main .info-section .right-info {
     font-size: 14px;
     color: #73788A;
     font-weight: 300;
+    line-height: 20px;
 }
 
 .info-section .left-info ul {
     list-style-type: none;
 }
 
+.info-section .left-info ul li {
+    color: #73788A;
+}
+
 .info-section .left-info ul li::before {
     content: "\2022";
     color: #3667C9;
+    font-weight: bold;
+    display: inline-block;
 }
 
+main .right-info .post-card {
+    width: 400px;
+}
+
+main .post-card img {
+    width: 400px;
+    height: 270px;
+    border-radius: 40px;
+}
+
+.post-card .card-content {
+    padding: 10px;
+}
+
+.post-card .card-content h4 {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+}
+
+.post-card .card-content h4:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h1:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h1 {
+    color: #73788A;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+}
+
+.post-card .card-content p {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+}
+
+main .right-info .post-card .most-wanted {
+    color: #3667C9;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+    float: right;
+    font-weight: bold;
+}
 
 
