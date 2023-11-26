@@ -279,4 +279,105 @@ main .right-info .post-card .most-wanted {
     font-weight: bold;
 }
 
+/* mini-slider styles */
+
+
+footer {
+    background-color: #3667C9;
+}
+
+footer .footer-content {
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+footer .footer-content .footer-left {
+    width: 50%;
+}
+
+footer .logo-aside {
+    width: 85px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .logo-aside img {
+    width: 55px;
+    height: 25px;
+    margin: 5px;
+}
+
+footer .footer-content .footer-left p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+    padding: 17px 0px;
+}
+
+footer .footer-content .footer-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .footer-right article p {
+    color: #C99836;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.footer-content .footer-right article ul {
+    padding: 10px 0px;
+}
+
+.footer-content .footer-right article ul a {
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-content .footer-right article ul a:hover {
+    color: #C99836;
+}
+
+hr {
+    width: 80%;
+}
+
+footer .copyright {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+footer .copyright .first p {
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .copyright .second ul {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+footer .copyright .second ul li a {
+    color: white;
+}
+
+footer .copyright .second ul li a:hover {
+    color: #C99836;
+}
 
