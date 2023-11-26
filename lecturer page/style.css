@@ -281,6 +281,28 @@ main .right-info .post-card .most-wanted {
 
 /* mini-slider styles */
 
+main .card-btn-second {
+    width: 200px;
+    margin: 50px auto;
+}
+
+main .card-btn-second button {
+    background-color: transparent;
+    border: 1px solid #3667C9;
+    color: #C99836;
+    font-size: 13px;
+    border-radius: 50px;
+    height: 30px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .card-btn-second button:hover {
+    background-color: #3667C9;
+    color: white;
+    transition: 1s;
+}
+
 
 footer {
     background-color: #3667C9;
