@@ -2,6 +2,7 @@ header {
     width: 100%;
     border: 1px solid white;
     background-color: #3667C9;
+    position: fixed;
 }
 
 header nav {
@@ -84,7 +85,7 @@ main .lecturer-section {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 40px 0px;
+    padding: 100px 0px;
 }
 
 main .lecturer-section .left {
@@ -167,20 +168,58 @@ main .info-section .left-info {
 main .info-section .right-info {
     width: 40%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-section .right-info .text-container h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #73788A;
+    font-weight: bold;
+    padding: 30px 0px 5px 0px;
+}
+
+.info-section .right-info .text-container h4:hover {
+    color: #3667C9;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.info-section .right-info .text-container .active {
+    color: #3667C9;
+}
+
+.info-section .right-info ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #73788A;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.info-section .course-text {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section .left-info .active {
+    color: #C99836;
 }
 
 .info-section .left-info h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: #C99836;
+    color: #73788A;
     font-weight: 300;
     padding: 10px 0px;
 }
 
 .info-section .left-info hr {
     color: #C99836;
-    width: 90%;
+    width: 80%;
     margin-bottom: 15px;
     float: left;
 }
@@ -205,6 +244,7 @@ main .info-section .right-info {
     color: #73788A;
     font-weight: 300;
     line-height: 20px;
+    margin: 30px 0px;
 }
 
 .info-section .left-info ul {
@@ -245,7 +285,6 @@ main .card-btn button {
     width: 70px;
     font-family: 'Roboto', sans-serif;
     border: none;
-
 }
 
 main .card-btn button:hover {
