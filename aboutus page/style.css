@@ -1,0 +1,81 @@
+header {
+    width: 100%;
+    border: 1px solid white;
+    background-color: #3667C9;
+    /* position: fixed; */
+}
+
+header nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+header aside {
+    display: inline-block;
+}
+
+header .logo-aside {
+    width: 7%;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .logo-aside img {
+    width: 55px;
+    height: 25px;
+    margin: 5px;
+}
+
+header .menu-aside {
+    width: 35%;
+}
+
+header .menu-aside ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu-aside li a {
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .menu-aside li a:hover {
+    color: #C99836;
+    transition: 1s;
+}
+
+header .menu-aside li .active {
+    color: #C99836;
+}
+
+header .reg-auth {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .reg-auth button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+    border-radius: 50px;
+    height: 25px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .reg-auth button:hover {
+    background-color: white;
+    color: #C99836;
+    transition: 1s;
+}
