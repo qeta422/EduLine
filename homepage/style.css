@@ -152,30 +152,36 @@ main .post-card img {
     padding: 10px;
 }
 
-.post-card .card-content h4 {
+.post-card .card-content h4 a {
     color: #73788A;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
+}
+
+.post-card .card-content h4 a:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h4 {
     padding: 5px 0px;
-}
-
-.post-card .card-content h4:hover {
-    color: #3667C9;
-    transition: 1s;
-    cursor: pointer;
-}
-
-.post-card .card-content h1:hover {
-    color: #3667C9;
-    transition: 1s;
-    cursor: pointer;
 }
 
 .post-card .card-content h1 {
+    padding: 5px 0px;
+}
+
+.post-card .card-content h1 a:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h1 a {
     color: #73788A;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    padding: 5px 0px;
 }
 
 .post-card .card-content p {
