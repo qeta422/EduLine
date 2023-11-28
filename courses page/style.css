@@ -1,7 +1,8 @@
 header {
     width: 100%;
     border: 1px solid white;
-    position: absolute;
+    background-color: #3667C9;
+    /* position: fixed; */
 }
 
 header nav {
@@ -10,7 +11,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding: 10px 0px;
 }
 
 header aside {
@@ -78,3 +79,57 @@ header .reg-auth button:hover {
     color: #C99836;
     transition: 1s;
 }
+
+main .title {
+    width: 200px;
+    margin: 30px auto;   
+}
+
+main .title h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #C99836;
+    font-size: 20px;
+}
+
+main .filter h3 {
+    color: #3667C9;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+main .filter {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .filter .left-filter {
+    width: 30%;
+}
+
+main .filter .right-filter {
+    width: 30%;
+}
+
+main .filter button {
+    margin-right: 20px;
+    background-color: transparent;
+    background-color: transparent;
+    color: #73788A;
+    font-size: 13px;
+    border: none;
+    height: 30px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .filter button:hover {
+    border: 2px solid #3667C9;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+
