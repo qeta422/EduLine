@@ -124,6 +124,7 @@ main .banner-img img{
     height: 320px;
     float: right;
     border-radius: 50px;
+    object-fit: cover;
 }
 
 main .card-area {
@@ -146,6 +147,7 @@ main .post-card img {
     width: 250px;
     height: 200px;
     border-radius: 40px;
+    object-fit: cover;
 }
 
 .post-card .card-content {

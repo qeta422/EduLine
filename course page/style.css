@@ -96,6 +96,7 @@ main .lecturer-section .left img {
     width: 580px;
     height: 450px;
     border-radius: 50px;
+    object-fit: cover;
 }
 
 main .lecturer-section .right {
