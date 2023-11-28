@@ -80,6 +80,26 @@ header .reg-auth button:hover {
     transition: 1s;
 }
 
+main .about-us {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+main .about-us h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #C99836;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+main .about-us p {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 50px;
+}
+
 footer {
     background-color: #3667C9;
 }
