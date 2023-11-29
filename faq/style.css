@@ -80,6 +80,26 @@ header .reg-auth button:hover {
     transition: 1s;
 }
 
+main .faq {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+main .faq h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #C99836;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+main .faq p {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 50px;
+}
+
 footer {
     background-color: #3667C9;
 }
