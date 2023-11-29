@@ -100,11 +100,13 @@ main .about-us p {
     text-indent: 50px;
 }
 
-main .team-section {
+main .team-section .title {
     font-family: 'Roboto', sans-serif;
     color: #C99836;
     font-size: 20px;
     padding: 20px 0px;
+    margin: auto;
+    width: 180px;
 }
 
 main .post-cards {
@@ -116,15 +118,19 @@ main .post-cards {
 }
 
 main .post-card {
-    width: 250px;
-    margin-bottom: 15px;
+    width: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main .post-card img {
-    width: 250px;
-    height: 200px;
-    border-radius: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .post-card .card-content {
@@ -144,11 +150,11 @@ main .post-card img {
 }
 
 .post-card .card-content h4 {
-    padding: 5px 0px;
+    padding-bottom: 5px;
 }
 
 .post-card .card-content h1 {
-    padding: 5px 0px;
+    padding-top: 5px;
 }
 
 .post-card .card-content h1 a:hover {
