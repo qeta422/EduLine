@@ -100,6 +100,76 @@ main .about-us p {
     text-indent: 50px;
 }
 
+main .team-section {
+    font-family: 'Roboto', sans-serif;
+    color: #C99836;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+main .post-cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+main .post-card {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+main .post-card img {
+    width: 250px;
+    height: 200px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.post-card .card-content {
+    padding: 10px;
+}
+
+.post-card .card-content h4 a {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-card .card-content h4 a:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h4 {
+    padding: 5px 0px;
+}
+
+.post-card .card-content h1 {
+    padding: 5px 0px;
+}
+
+.post-card .card-content h1 a:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.post-card .card-content h1 a {
+    color: #73788A;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-card .card-content p {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0px;
+}
+
 footer {
     background-color: #3667C9;
 }
