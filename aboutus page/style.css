@@ -176,6 +176,15 @@ main .post-card img {
     padding: 5px 0px;
 }
 
+.pagination {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.pagination .page-item a {
+    color: #3667C9;
+}
+
 footer {
     background-color: #3667C9;
 }
