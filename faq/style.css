@@ -80,24 +80,106 @@ header .reg-auth button:hover {
     transition: 1s;
 }
 
-main .faq {
+main .faq-text {
     width: 60%;
     margin: 40px auto;
     text-align: center;
 }
 
-main .faq h1 {
+main .faq-text h1 {
     font-family: 'Roboto', sans-serif;
     color: #C99836;
     font-size: 20px;
     padding: 20px 0px;
 }
 
-main .faq p {
+main .faq-text p {
     color: #73788A;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     text-indent: 50px;
+}
+
+main .faq {
+    width: 80%;
+    margin: auto;
+}
+
+main .faq h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #C99836;
+    font-size: 20px;
+}
+
+main .faq-asides {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.faq-asides .text {
+    margin-top: 15px;
+}
+
+.faq-asides .text h4 {
+    color: #73788A;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.faq-asides .text h4:hover {
+    color: #3667C9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.faq-asides .text p {
+    color: #73788A;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+}
+
+.faq-asides .left {
+    width: 45%;
+}
+
+.faq-asides .right {
+    width: 45%;
+}
+
+main .cant-find {
+    width: 250px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .cant-find h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #C99836;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+main .cant-find button {
+    background-color: transparent;
+    border: 1px solid #3667C9;
+    color: #C99836;
+    font-size: 13px;
+    border-radius: 50px;
+    height: 30px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .cant-find button:hover {
+    background-color: #3667C9;
+    color: white;
+    transition: 1s;
 }
 
 footer {
