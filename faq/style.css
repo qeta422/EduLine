@@ -103,6 +103,7 @@ main .faq-text p {
 main .faq {
     width: 80%;
     margin: auto;
+    background-color: white;
 }
 
 main .faq h1 {
@@ -140,6 +141,15 @@ main .faq-asides {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     padding: 10px 0px;
+}
+
+.faq .animate {
+    transform: translateY(150px);
+    transition: 2s;
+}
+
+.show-animate .animate {
+    transform: translateY(0);
 }
 
 .faq-asides .left {
