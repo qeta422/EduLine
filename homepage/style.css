@@ -130,18 +130,18 @@ main .banner-img img{
 main .card-area {
     width: 100%;
 }
-/* 
+
 main .animate {
     transition: 1s;
 }
 
 main .card-area .animate {
-    transform: translateY(100px);
+    transform: translateY(150px);
 }
 
 main .card-area .show-animate .animate {
     transform: translateY(0);
-} */
+}
 
 main .post-cards {
     width: 80%;
@@ -281,7 +281,7 @@ main .faq-asides {
 }
 
 main .faq-asides .animate {
-    transform: translateY(100px);
+    transform: translateY(400px);
     transition: 1s;
 }
 
