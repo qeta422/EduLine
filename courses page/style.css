@@ -136,6 +136,19 @@ main .filter button:hover {
 main .card-area {
     width: 100%;
 }
+
+main .card-area .animate {
+    transform: translateY(150px);
+    transition: 1s;
+}
+
+main .card-area .show-animate .animate {
+    transform: translateY(0);
+}
+
+main .card-area {
+    width: 100%;
+}
 main .post-cards {
     width: 80%;
     display: flex;
