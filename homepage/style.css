@@ -130,6 +130,19 @@ main .banner-img img{
 main .card-area {
     width: 100%;
 }
+/* 
+main .animate {
+    transition: 1s;
+}
+
+main .card-area .animate {
+    transform: translateY(100px);
+}
+
+main .card-area .show-animate .animate {
+    transform: translateY(0);
+} */
+
 main .post-cards {
     width: 80%;
     position: absolute;
@@ -266,6 +279,16 @@ main .faq-asides {
     display: flex;
     justify-content: space-between;
 }
+
+main .faq-asides .animate {
+    transform: translateY(100px);
+    transition: 1s;
+}
+
+main .faq .show-animate .animate {
+    transform: translateY(0);
+}
+
 
 .faq-asides .text {
     margin-top: 15px;
