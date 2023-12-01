@@ -1,6 +1,6 @@
 let postCards = document.querySelectorAll(".post-cards");
 let postCard = document.querySelectorAll(".post-card");
-let filter = document.querySelector('.right-filter');
+let filter = document.querySelector('.filter');
 let buttons = filter.querySelectorAll('button');
 let listItems = Array.from(postCard);
 
