@@ -4,7 +4,7 @@ window.onscroll = () => {
     for (let i = 0; i < postCards.length; i++) {
         let sec = postCards[i];
         let top = window.scrollY;
-        let offset = sec.offsetTop -360;    
+        let offset = sec.offsetTop -260;    
         let height = sec.offsetHeight;
 
         if (top >= offset && top < offset + height) {
