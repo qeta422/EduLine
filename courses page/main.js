@@ -18,11 +18,8 @@ window.onscroll = () => {
         }
     }
 }
-function filterData(searchItem) {
-    buttons.forEach((button) => {
-        button.classList.remove('active');
-    });
 
+function filterData(searchItem) {
     listItems.forEach((item) => {
         if (item.innerText.toLowerCase().includes(searchItem.toLowerCase())) {
             item.classList.remove('hidden');
@@ -34,8 +31,6 @@ function filterData(searchItem) {
 
 buttons.forEach((button) => {
     button.addEventListener('click', (event) => {
-        const clickedButton = event.target;
-        filterData(clickedButton.innerText);
-        clickedButton.classList.add('active');
+        filterData(event.target.innerText);
     });
 });
