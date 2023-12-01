@@ -162,6 +162,14 @@ main .post-card {
     margin-bottom: 15px;
 }
 
+main .post-card.hidden {
+    display: none;
+}
+
+main .post-card.active {
+    display: block;
+}
+
 main .post-card img {
     width: 250px;
     height: 200px;
