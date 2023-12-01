@@ -109,6 +109,15 @@ main .team-section .title {
     width: 180px;
 }
 
+main .post-cards .animate {
+    transform: translateY(150px);
+    transition: 1s;
+}
+
+main .show-animate .animate {
+    transform: translateY(0);
+}
+
 main .post-cards {
     width: 80%;
     display: flex;

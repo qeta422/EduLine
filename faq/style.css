@@ -145,7 +145,7 @@ main .faq-asides {
 
 .faq .animate {
     transform: translateY(150px);
-    transition: 2s;
+    transition: 1s;
 }
 
 .show-animate .animate {
