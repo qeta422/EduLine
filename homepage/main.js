@@ -54,7 +54,7 @@ window.onscroll = () => {
     for (let i = 0; i < faqAsides.length; i++) {
         let sec = faqAsides[i];
         let top = window.scrollY;
-        let offset = sec.offsetTop -260;
+        let offset = sec.offsetTop -150;
         let height = sec.offsetHeight;
 
         if (top >= offset && top < offset + height) {
