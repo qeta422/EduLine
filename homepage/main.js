@@ -9,14 +9,14 @@ let data = [
         id: 1,
         imgURL: 'employee.jpg',
         title: 'image title1',
-        url: 'https://www.36exp.co.uk/what-is-urban-photography/'
+        url: '#'
     },
 
     {
          id: 2,
          imgURL: 'coder.jpg',
          title: 'image title2',
-         url: 'https://www.studiobinder.com/blog/what-is-portrait-photography-definition/'
+         url: '#'
         
     },
         
@@ -24,7 +24,7 @@ let data = [
          id: 3,
          imgURL: 'group.jpg',
          title: 'image title3',
-         url: 'https://www.masterclass.com/articles/tips-for-breathtaking-nature-photography'
+         url: '#'
         
     },
         
@@ -32,7 +32,7 @@ let data = [
          id: 4,
          imgURL: 'graphic.jpg',
          title: 'image title4',
-         url: 'https://artincontext.org/what-is-abstract-photography/'
+         url: '#'
         
     },
 ]
@@ -81,16 +81,39 @@ function createImgTag(item) {
     return imgTag;
 }
 
+function createDots(item) {
+    let dots = document.createElement('div');
+    dots.setAttribute('class', 'dots');
+
+    data.forEach( (element) => {
+        let dotElement = document.createElement('div');
+        dotElement.setAttribute('class', 'dot');
+        dotElement.setAttribute('data-id', element.id - 1);
+
+        dotElement.onclick = function(event) {
+            let id = event.target.getAttribute('data-id');
+            sliderIndex = id;
+            setSlide();
+        }
+
+        dots.appendChild(dotElement);
+    });
+    console.log(dots);
+    return dots;
+}
+
 
 function slider() {
     sliderContent.innerHTML = ' ';
     let slideItem = createATag(data[sliderIndex]);
     let imgItem = createImgTag(data[sliderIndex]);
+    let dots = createDots();
 
     slideItem.appendChild(imgItem);
-    slideItem.appendChild(arrowLeft);
-    slideItem.appendChild(arrowRight);
+    sliderContent.appendChild(arrowLeft);
+    sliderContent.appendChild(arrowRight);
     sliderContent.appendChild(slideItem);
+    sliderContent.appendChild(dots);
 }
 
 arrowLeft.addEventListener('click', function() {

@@ -207,7 +207,7 @@ main .post-card img {
 }
 
 main .card-btn {
-    width: 200px;
+    width: 110px;
     margin: 430px auto 0px;
 }
 
@@ -229,7 +229,7 @@ main .card-btn button:hover {
 }
 
 main .slider-section .slider-title {
-    width: 200px;
+    width: 120px;
     margin: 50px auto;
 }
 
@@ -240,16 +240,20 @@ main .slider-section h1 {
 
 }
 
+.slider-wrapper {
+    position: relative;
+}
+
 .arrow {
     width: 30px;
     height: 30px;
     background-color: transparent;
+    position: absolute;
     border: none;
     color: rgb(119, 118, 118);
     font-size: 40px;
-    top: 50%;
-    transform: translateY(-50%);
     cursor: pointer;
+    margin-top: 100px;
 }
 
 .arrow.arrow-left {
@@ -261,8 +265,9 @@ main .slider-section h1 {
 }
 
 .slide {
-    display: block;
+    display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .slide img {
@@ -272,9 +277,30 @@ main .slider-section h1 {
     border-radius: 70px;
 }
 
+.dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 15px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(119, 118, 118);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.dot .active {
+    background-color: rgb(182, 181, 181);
+}
+
 main .card-btn-second {
-    width: 200px;
-    margin: 50px auto;
+    width: 110px;
+    margin: 90px auto;
 }
 
 main .card-btn-second button {
