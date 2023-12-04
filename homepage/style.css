@@ -240,7 +240,37 @@ main .slider-section h1 {
 
 }
 
-/* slider styles */
+.arrow {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: rgb(119, 118, 118);
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.arrow.arrow-left {
+    left: 30px;
+}
+
+.arrow.arrow-right {
+    right: 30px;   
+}
+
+.slide {
+    display: block;
+    width: 100%;
+}
+
+.slide img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 70px;
+}
 
 main .card-btn-second {
     width: 200px;
