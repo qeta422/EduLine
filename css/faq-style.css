@@ -66,18 +66,24 @@ header .reg-auth {
 header .reg-auth button {
     background-color: transparent;
     border: 1px solid white;
-    color: white;
-    font-size: 13px;
     border-radius: 50px;
     height: 25px;
     margin: 5px;
+}
+
+header .reg-auth a {
+    color: white;
+    font-size: 13px;
     font-family: 'Roboto', sans-serif;
 }
 
 header .reg-auth button:hover {
     background-color: white;
-    color: #C99836;
     transition: 1s;
+}
+
+header .reg-auth a:hover {
+    color: #C99836;
 }
 
 main .faq-text {

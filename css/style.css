@@ -65,18 +65,24 @@ header .reg-auth {
 header .reg-auth button {
     background-color: transparent;
     border: 1px solid white;
-    color: white;
-    font-size: 13px;
     border-radius: 50px;
     height: 25px;
     margin: 5px;
+}
+
+header .reg-auth a {
+    color: white;
+    font-size: 13px;
     font-family: 'Roboto', sans-serif;
 }
 
 header .reg-auth button:hover {
     background-color: white;
-    color: #C99836;
     transition: 1s;
+}
+
+header .reg-auth a:hover {
+    color: #C99836;
 }
 
 main .banner-area {
@@ -214,18 +220,24 @@ main .card-btn {
 main .card-btn button {
     background-color: transparent;
     border: 1px solid #3667C9;
-    color: #C99836;
-    font-size: 13px;
     border-radius: 50px;
     height: 30px;
     margin: 5px;
+}
+
+main .card-btn a {
+    color: #C99836;
+    font-size: 13px;
     font-family: 'Roboto', sans-serif;
 }
 
 main .card-btn button:hover {
     background-color: #3667C9;
-    color: white;
     transition: 1s;
+}
+
+main .card-btn a:hover {
+    color: white;
 }
 
 main .slider-section .slider-title {
@@ -306,18 +318,24 @@ main .card-btn-second {
 main .card-btn-second button {
     background-color: transparent;
     border: 1px solid #3667C9;
-    color: #C99836;
-    font-size: 13px;
     border-radius: 50px;
     height: 30px;
     margin: 5px;
+}
+
+main .card-btn-second a {
+    color: #C99836;
+    font-size: 13px;
     font-family: 'Roboto', sans-serif;
 }
 
 main .card-btn-second button:hover {
     background-color: #3667C9;
-    color: white;
     transition: 1s;
+}
+
+main .card-btn-second a:hover {
+    color: white;
 }
 
 main .faq {
