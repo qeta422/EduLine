@@ -10,7 +10,7 @@ Key elements:
 * Semantic structure
 * Flexbox
 * Functions (slider, filter)
-* window (onscroll)
-* animations
+* Window (onscroll)
+* Animations
 
 ### Note: Website is still in the process of development
