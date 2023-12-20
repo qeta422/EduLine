@@ -10,5 +10,6 @@ Key elements:
 * Flexbox
 * Functions (slider, filter)
 * window (onscroll)
+* animations
 
-### Note: Website is still developing
+### Note: Website is still in the process of development
