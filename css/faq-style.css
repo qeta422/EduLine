@@ -124,10 +124,6 @@ main .faq-asides {
     margin-bottom: 50px;
 }
 
-.faq-asides .text {
-    margin-top: 15px;
-}
-
 .faq-asides .text h4 {
     color: #73788A;
     font-size: 15px;
@@ -149,17 +145,29 @@ main .faq-asides {
     padding: 10px 0px;
 }
 
-.faq .animate {
-    transform: translateY(150px);
-    transition: 1s;
-}
-
-.show-animate .animate {
-    transform: translateY(0);
-}
-
 .faq-asides .left {
     width: 45%;
+}
+
+.animate {
+    animation-name: bottom;
+    animation-duration: 2s;
+}
+
+@keyframes bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(400px);
+    }
+
+    80% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .faq-asides .right {

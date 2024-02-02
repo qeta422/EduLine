@@ -137,22 +137,10 @@ main .card-area {
     width: 100%;
 }
 
-main .animate {
-    transition: 1s;
-}
-
-main .card-area .animate {
-    transform: translateY(150px);
-}
-
-main .card-area .show-animate .animate {
-    transform: translateY(0);
-}
-
 main .post-cards {
     width: 80%;
     position: absolute;
-    top: 440px;
+    top: 450px;
     right: 150px;
     display: flex;
     justify-content: space-between;
@@ -354,15 +342,26 @@ main .faq-asides {
     justify-content: space-between;
 }
 
-main .faq-asides .animate {
-    transform: translateY(400px);
-    transition: 1s;
+.animate {
+    animation-name: bottom;
+    animation-duration: 2s;
 }
 
-main .faq .show-animate .animate {
-    transform: translateY(0);
-}
+@keyframes bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(400px);
+    }
 
+    80% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 .faq-asides .text {
     margin-top: 15px;
