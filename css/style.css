@@ -613,4 +613,13 @@ footer .copyright .second ul li a:hover {
     main .banner-text {
         max-width: 37%;
     }
+
+    main .post-cards {
+        flex-wrap: wrap;
+    }
+
+    main .card-btn {
+        margin: 730px auto 0px;
+    }
+
 }
