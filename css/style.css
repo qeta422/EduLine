@@ -98,7 +98,7 @@ main .banner-area .banner {
 }
 
 main .banner-text {
-    width: 60%;
+    max-width: 55%;
 }
 
 main .banner-text h1 {
@@ -122,11 +122,11 @@ main .banner-text p {
 }   
 
 main .banner-img {
-    width: 40%;
+    max-width: 40%;
 }
 
 main .banner-img img{
-    width: 420px;
+    max-width: 420px;
     height: 320px;
     float: right;
     border-radius: 50px;
@@ -499,6 +499,15 @@ footer .copyright .second ul li a:hover {
     header .menu-aside {
         width: 45%;
     }
+
+    main .banner-img img{
+        max-width: 350px;
+        height: 250px;
+    }
+
+    main .banner-text {
+        max-width: 50%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -517,6 +526,16 @@ footer .copyright .second ul li a:hover {
 
     header .reg-auth {
         width: 40%;
+    }
+
+    main .banner-img img{
+        max-width: 300px;
+        height: 200px;
+        margin-top: 60px;
+    }
+
+    main .banner-text {
+        max-width: 40%;
     }
 }
 
@@ -547,5 +566,15 @@ footer .copyright .second ul li a:hover {
 
     header .reg-auth a {
         font-size: 7px;
+    }
+
+    main .banner-img img{
+        max-width: 270px;
+        height: 190px;
+        margin-top: 60px;
+    }
+
+    main .banner-text {
+        max-width: 37%;
     }
 }
