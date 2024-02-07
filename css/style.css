@@ -508,6 +508,19 @@ footer .copyright .second ul li a:hover {
     main .banner-text {
         max-width: 50%;
     }
+    
+    main .post-card {
+        width: 200px;
+    }
+    
+    main .post-card img {
+        width: 200px;
+        height: 150px;
+    }
+
+    main .post-cards {
+        right: 135px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -536,6 +549,29 @@ footer .copyright .second ul li a:hover {
 
     main .banner-text {
         max-width: 40%;
+    }
+
+    main .post-card {
+        width: 180px;
+    }
+    
+    main .post-card img {
+        width: 150px;
+        height: 120px;
+    }
+
+    main .post-cards {
+        right: 90px;
+    }
+}
+
+@media only screen and (max-width: 748px) {
+    main .post-cards {
+        flex-wrap: wrap;
+    }
+
+    main .card-btn {
+        margin: 730px auto 0px;
     }
 }
 
