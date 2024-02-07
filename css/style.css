@@ -494,3 +494,35 @@ footer .copyright .second ul li a {
 footer .copyright .second ul li a:hover {
     color: #C99836;
 }
+
+@media only screen and (max-width: 1200px) {
+    header .menu-aside {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    header .logo-aside {
+        width: 12%;
+        height: 40px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .menu-aside {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header .logo-aside {
+        width: 15%;
+        height: 40px;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
